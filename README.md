@@ -4,6 +4,8 @@ MemHunter is a standalone, portable Digital Forensics and Incident Response (DFI
 
 It is designed for offline investigations: **no installation**, **no internet**, and **no system-wide Python** are required. The tool ships with its own embedded runtime and binaries.
 
+![Process Tree View](assets/Screenshot_pstree.png)
+
 ## Key Features
 
 - **Portable execution**: double-click `MemHunter.exe` to launch the UI.
@@ -92,6 +94,8 @@ MemHunter implements two distinct modes with different performance and intent ch
 
 ### Global Mode (Whole Image Analysis)
 
+![Service Scan View](assets/Screenshot_svcsvan.png)
+
 Global Mode is the broad, whole-memory baseline. It runs plugins and workflows that operate on the entire memory image and generates foundational datasets used throughout the investigation.
 
 Typical Global Mode capabilities include:
@@ -108,6 +112,10 @@ Typical Global Mode capabilities include:
 Output from Global Mode is loaded into memory (Pandas dataframes) and becomes the primary source for navigation, filtering, and downstream targeting.
 
 ### Hunt Mode (Single Process Analysis)
+
+![Hunt Mode 1](assets/Screenshot_hunt.png)
+
+![Hunt Mode 2](assets/Screenshot_hunt2.png)
 
 Hunt Mode is a targeted deep-dive into a **single PID**.
 
