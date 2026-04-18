@@ -1,0 +1,12 @@
+# MemHunter: blue primary (avoids default red “primary” buttons) + default dark base.
+# Restart Streamlit after changing this file.
+
+[theme]
+base = "dark"
+primaryColor = "#2563eb"
+backgroundColor = "#0b1220"
+secondaryBackgroundColor = "#151f32"
+textColor = "#e8eef7"
+font = "sans serif"
+# Hides the vertical line between sidebar and main (often confused with a resize grip).
+showSidebarBorder = false
